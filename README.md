@@ -23,7 +23,7 @@ This project is a simple web-based demo that visualizes second-order dynamics us
 
 ## Usage
 1. Open `index.html` in a browser.
-2. Move the mouse to set the target position.
+2. Move the mouse to see the circle move.
 3. Adjust the control sliders to see the effect on motion.
 
 ## License
