@@ -26,9 +26,9 @@ This project is a simple web-based demo that visualizes second-order dynamics us
 2. Move the mouse to see the circle move.
 3. Adjust the control sliders to see the effect on motion.
 
-## License
-This project is open-source and available for use under the MIT License.
-
-# Roadmap
+## Roadmap
 1. Refactor to allow easy use with different frameworks.
 2. Optimize performance & animations in case of framedrops.
+
+## License
+This project is open-source and available for use under the MIT License.
