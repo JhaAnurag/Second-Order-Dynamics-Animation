@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Order Dynamics Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="follower"></div>
+    <div class="target"></div>
+    
+    <div class="controls">
+        <div class="control-group">
+            <label>Frequency (f)</label>
+            <div class="input-row">
+                <input type="range" id="fSlider" min="0" max="10" step="0.1" value="2.5">
+                <input type="number" id="fInput" value="2.5" step="0.1" min="0">
+            </div>
+        </div>
+        <div class="control-group">
+            <label>Damping (z)</label>
+            <div class="input-row">
+                <input type="range" id="zSlider" min="0" max="2" step="0.05" value="0.65">
+                <input type="number" id="zInput" value="0.65" step="0.05" min="0">
+            </div>
+        </div>
+        <div class="control-group">
+            <label>Response (r)</label>
+            <div class="input-row">
+                <input type="range" id="rSlider" min="-2" max="2" step="0.05" value="1.0">
+                <input type="number" id="rInput" value="1.0" step="0.05">
+            </div>
+        </div>
+    </div>
+
+    <script src="vector2.js"></script>
+    <script src="dynamics.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
