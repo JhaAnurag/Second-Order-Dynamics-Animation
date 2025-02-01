@@ -9,7 +9,7 @@ This project is a simple web-based demo that visualizes second-order dynamics us
 - Minimalistic UI with interactive controls.
 
 ## Roadmap
-1. Refactor to allow easy use with different frameworks with a simple api.
+1. Refactor to allow easy use with different frameworks with a simple API.
 2. Optimize performance & animations in case of framedrops.
 
 ## Technologies Used
