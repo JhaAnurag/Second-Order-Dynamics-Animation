@@ -8,6 +8,10 @@ This project is a simple web-based demo that visualizes second-order dynamics us
 - Real-time updates using sliders and input fields.
 - Minimalistic UI with interactive controls.
 
+## Roadmap
+1. Refactor to allow easy use with different frameworks with a simple api.
+2. Optimize performance & animations in case of framedrops.
+
 ## Technologies Used
 - HTML5
 - CSS3
@@ -25,10 +29,6 @@ This project is a simple web-based demo that visualizes second-order dynamics us
 1. Open `index.html` in a browser.
 2. Move the mouse to see the circle move.
 3. Adjust the control sliders to see the effect on motion.
-
-## Roadmap
-1. Refactor to allow easy use with different frameworks.
-2. Optimize performance & animations in case of framedrops.
 
 ## License
 This project is open-source and available for use under the MIT License.
